@@ -25,4 +25,10 @@ public class StudentPrimary extends Person implements IStudy, IPerson{
     public void run() {
         System.out.println("StudentPrimary run");
     }
+
+    @Override
+    public void jump() {
+        super.jump();
+        System.out.println("Student jumping...");
+    }
 }
